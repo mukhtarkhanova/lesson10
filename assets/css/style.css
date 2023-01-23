@@ -1,0 +1,293 @@
+body {
+  margin: 0;
+}
+
+p, h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+}
+
+.btn {
+  border: none;
+  background-color: transparent;
+}
+
+input[type=text] {
+  border: none;
+  outline: none;
+  background-color: transparent;
+}
+
+a {
+  text-transform: none;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 900;
+}
+
+h4 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+}
+
+p {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+}
+
+.btn.orange {
+  width: 100%;
+  color: #FF3D00;
+  border: 1px solid #FF3D00;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 900;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 14px;
+  transition: 0.4s;
+}
+.btn.orange:hover {
+  width: 100%;
+  color: #FF3D00;
+  border: 1px solid #FF3D00;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 900;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 14px;
+  transition: 0.4s;
+  cursor: pointer;
+  color: #fff;
+  background-color: #FF3D00;
+}
+.btn.blue {
+  width: 100%;
+  color: #0085FF;
+  border: 1px solid #0085FF;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 900;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 14px;
+  transition: 0.4s;
+}
+.btn.blue:hover {
+  width: 100%;
+  color: #0085FF;
+  border: 1px solid #0085FF;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 900;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 14px;
+  transition: 0.4s;
+  cursor: pointer;
+  color: #fff;
+  background-color: #0085FF;
+}
+
+h1 {
+  font-size: 20px;
+}
+
+h2 {
+  font-size: 16px;
+}
+
+h3,
+p {
+  font-size: 14px;
+}
+
+h4 {
+  font-size: 12px;
+}
+
+body {
+  padding: 0 16px;
+}
+
+header {
+  padding: 38px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header .burger-menu .line {
+  width: 18px;
+  height: 2px;
+  background-color: #202020;
+  margin-bottom: 3px;
+}
+header .burger-menu .line:last-child {
+  margin-bottom: 0;
+}
+header h1 {
+  transition: 0.4s;
+}
+header h1.active {
+  color: #ef5da8;
+}
+header h1.active:hover {
+  color: #000;
+}
+header h1:hover {
+  color: #ef5da8;
+  cursor: pointer;
+}
+header .icons svg {
+  transition: 0.4s;
+}
+header .icons svg:first-child {
+  margin-right: 20px;
+}
+header .icons svg:hover {
+  fill: #FF3D00;
+  cursor: pointer;
+}
+
+.main {
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+}
+.main .block {
+  width: 48%;
+  background-color: #0085FF;
+  border-radius: 8px;
+}
+.main .block .title {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.main .block .title p {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 900;
+  color: #fff;
+  margin: 38 px 55px;
+  font-size: 20px;
+}
+.main .cover {
+  position: relative;
+  width: 100%;
+  padding-top: 30%;
+  width: 48%;
+}
+.main .cover img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+.main .cover img {
+  border-radius: 8px;
+}
+
+.cards {
+  margin-top: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.cards .card {
+  width: 17%;
+  background: #FFFFFF;
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.05);
+  border-radius: 8px;
+}
+.cards .card .cover {
+  position: relative;
+  width: 100%;
+  padding-top: 100%;
+}
+.cards .card .cover img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+.cards .card .cover img {
+  border-radius: 8px 8px 0 0;
+}
+.cards .card .content {
+  padding: 10px;
+}
+.cards .card .content .desc {
+  margin: 14px 0 8px;
+}
+.cards .card .content .context {
+  color: #939393;
+  font-size: 12px;
+  margin-bottom: 8px;
+}
+
+.main-form {
+  margin-top: 80px;
+}
+.main-form form {
+  width: 33%;
+  margin: 0 auto;
+  border: 1px solid #808080;
+  border-radius: 8px;
+  padding: 15px 20px 35px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.main-form form h1 {
+  margin-bottom: 30px;
+}
+.main-form form input[type=text], .main-form form .select {
+  width: 100%;
+  display: flex;
+  padding: 7px 0 7px 11px;
+  border: 1px solid #808080;
+  border-radius: 5px;
+  color: #808080;
+  margin-bottom: 20px;
+}
+.main-form form .select {
+  position: relative;
+}
+.main-form form .select .pick {
+  position: absolute;
+  cursor: pointer;
+  top: 205;
+  left: 96%;
+}
+.main-form form .select .pick svg {
+  transition: 0.4s;
+}
+.main-form form .select .pick svg :hover {
+  fill: #FF3D00;
+}
+.main-form form .select .options {
+  display: none;
+  position: absolute;
+  top: 85%;
+  left: 0;
+  width: 98%;
+  background-color: #fff;
+  color: #000;
+  padding: 7px 0 7px 11px;
+}
+.main-form form .select .options .opt {
+  margin-bottom: 4px;
+}
+.main-form form .select .options .opt:last-child {
+  margin-bottom: 0;
+}
+.main-form form .select:hover .options {
+  display: block;
+}
+
+/*# sourceMappingURL=style.css.map */
